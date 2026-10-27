@@ -208,7 +208,6 @@ Die verlinkten Dateien liegen im Gedächtnis-Ordner auf dem Mac, nicht in diesem
 - [JARVIS + DaVinci Resolve](project-jarvis-resolve.md) — Resolve Python scripting API live-confirmed; basis for video-edit automation; Auto-Cut (pauses) built
 - [JARVIS latency fixes](project-jarvis-latency.md) — Parakeet STT (~75ms listen) + leaner Edge TTS; needs npm restart
 - [JARVIS Karten-Workflow](project-jarvis-card-workflow.md) — clean_card (Duplikate löschen) + sort_card (Dreh-Cluster + VLM-Votum, Frage pro Dreh)
-- [JARVIS Türsensor](project-jarvis-door-sensor.md) — Hue-Bewegungsmelder Eingang: Ankunft-Briefing (Logik 1) + wer-kam-rein David/Nazli (Logik 2)
 - [Metricool integration](project-metricool-integration.md) — MCP set up & live-tested; post local-folder videos to the right client
 - [Gemini video analysis](project-gemini-video-analysis.md) — set up & working; watch local videos, transcribe, write captions
 - [Jargon-Artikel](feedback-jargon-artikel.md) — Harun will „die Hook" (nicht „der Hook"); engl. Marketing-Begriffe mit seinem Artikel
