@@ -9,7 +9,7 @@ Stand: 27.10.2026.
 - **Harun Gür**, Inhaber **Haurer Media**, Video- und Social-Media-Agentur, Sitz Hilden.
 - Antworte **immer auf Deutsch**, direkt und tempoorientiert. „Einfach machen" statt lange fragen.
 - Kontakt: business@haurer.de · info@haurer.de
-- Umfeld: David (Dreh/Schnitt), Nazli, Rabia (Minijob).
+- Umfeld: David (Dreh/Schnitt). Nazli und Rabia sind nicht mehr dabei.
 
 ## 2 — Preise
 
