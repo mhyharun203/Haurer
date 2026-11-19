@@ -20,6 +20,14 @@ kein Büro, Chefs drehen nicht mit, 2–3 Stunden vor Ort, keine Aufbauszenen.
   „Und wenn’s regnet?“ – „Überdachter Wintergarten.“ · Schluss: „… Ich hab nichts zum
   Anziehen.“ – Blick, Schulterzucken. Im Frühjahr als „Sommerfest“-Fassung.
 
+- **„Kurze Frage …“, letzte zwei Folgen** (danach ist das Format ausgereizt, keine weiteren):
+  - *„Ist das hier der Eingang?“* Der Gast fragt, Team 1 beginnt sofort die Führung:
+    „Genau, und hier wäre dann euer Empfang, da hinten …“ Team 2 ergänzt die Gästezahl.
+    Gast: „Nee, ich such nur die Toilette.“ Kurzer Blickwechsel, Team 1 zeigt wortlos die Richtung.
+  - *„Kann ich hier mal kurz telefonieren?“* Team 1: „Für die Ansprache? Da können wir euch
+    einen ruhigen Bereich freihalten.“ Team 2: „Wie viele hören zu?“
+    Gast: „Nee, meine Mutter ruft an.“ Team 2 klappt die Mappe zu.
+
 ## Belegte Fakten (Faktencheck 02.11.2026, monberg.de)
 
 Fast 3.500 m² Veranstaltungsfläche · bis zu 1.500 Gäste · offizielle Standesamt-Location ·
