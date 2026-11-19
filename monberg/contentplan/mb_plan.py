@@ -28,9 +28,9 @@ REGELN = [
 # (nr, datum, video, format, status, haurer)  | Monatszeile: ('MONAT',)
 KALENDER = [
     ('NOVEMBER',),
-    ('01', 'Mi 11.11.', 'Eisstockschießen auf dem MonBerg', 'Ad · organisch', 'online',
-     '', 'Als Anzeige bereits online. Organisch voraussichtlich am Mi 11.11.'),
-    ('02', 'Fr 13.11.', 'So früh hatte ich noch nie einen stehen.', 'Zweideutig', 'gedreht',
+    ('01', 'Do 12.11.', 'Eisstockschießen auf dem MonBerg', 'Ad · organisch', 'online',
+     '', 'Gepostet am 12.11. Als Anzeige bereits online.'),
+    ('02', 'Mo 16.11.', 'So früh hatte ich noch nie einen stehen.', 'Zweideutig', 'online',
      '<b>Direkt nach dem Eisstockschießen</b> – solange der Weihnachtsbaum gerade aktuell ist.'),
     ('03', 'Di 17.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'gedreht',
      '<b>Kommt auf Fotos kleiner rüber (Zweideutig)</b> bewusst nicht direkt danach, sondern mit einem Sketch dazwischen.'),
