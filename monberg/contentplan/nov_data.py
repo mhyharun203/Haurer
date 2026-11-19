@@ -16,7 +16,7 @@ REGELN = [
     ('Dreh 04.11.', 'Vier Videos gedreht: 01 Eisstockschießen auf dem MonBerg (Ad) · 02 „So früh hatte ich noch nie einen stehen.“ · 03 „Kommt auf Fotos kleiner rüber.“ · 04 MonGarten vs. MonStrand – Das Duell (mit Drohne)'),
     ('Dreh 19.11.', 'Drei Videos gedreht: 06 „Kurze Frage …“ · Wo kann ich parken? · 07 „Alleine krieg ich den nicht hoch.“ · 09 „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (Ad)'),
     ('Dreh 27.11.', 'Auf Kundenwunsch: Die dekorierte Location wird abgedreht (08).'),
-    ('Anzeigen', 'Online: Eisstockschießen auf dem MonBerg. Gedreht: „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (09), wird nach eurer Freigabe geschaltet.'),
+    ('Anzeigen', 'Online: Eisstockschießen auf dem MonBerg. Ab Mo 23.11.: „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (09), nach eurer Freigabe.'),
 ]
 
 # (nr, datum, video, format, status, haurer)  | Monatszeile: ('MONAT',)
@@ -29,14 +29,15 @@ KALENDER = [
     ('03', 'November', 'Kommt auf Fotos kleiner rüber.', 'Zweideutig', 'online', ''),
     ('04', 'Fr 20.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'geschnitten',
      ''),
-    ('05', 'diese Woche', 'Die Firmenfeier ist freiwillig.', 'Sketch · Chatverlauf', 'produktion',
+    ('05', 'So 22.11.', 'Die Firmenfeier ist freiwillig.', 'Sketch · Chatverlauf', 'produktion',
      'Wird diese Woche als Chatverlauf umgesetzt. Passt mitten in die Planung der Weihnachtsfeiern.'),
     ('06', 'Di 24.11.', '„Kurze Frage …“ · Wo kann ich parken?', 'Serie', 'gedreht', ''),
     ('07', 'Do 26.11.', 'Alleine krieg ich den nicht hoch.', 'Zweideutig', 'gedreht', ''),
-    ('08', 'nach Dreh 27.11.', 'Die dekorierte Location', 'Location', 'drehen',
-     '<b>Zum 1. Advent am So 29.11. posten</b> – zwei Tage nach dem Dreh, passend zum Start in die Adventszeit.',
+    ('08', 'So 29.11.', 'Die dekorierte Location', 'Location', 'drehen',
+     'Zum 1. Advent, zwei Tage nach dem Dreh, passend zum Start in die Adventszeit.',
      'Auf Kundenwunsch. Dreh am Fr 27.11.'),
     ('NOVEMBER · ADS',),
-    ('09', 'nach Freigabe', '„Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen?', 'Serie · Ad', 'gedreht', ''),
+    ('09', 'Mo 23.11.', '„Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen?', 'Serie · Ad', 'gedreht', '',
+     'Schaltung als Anzeige nach eurer Freigabe.'),
 ]
 
