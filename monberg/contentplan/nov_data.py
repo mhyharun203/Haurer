@@ -13,7 +13,7 @@ REGELN = [
     ('Paket', 'Laut Angebot 2026-0808-MB-B: 8 Videos organisch, 4 Videos für Anzeigen, 4 Carousel- oder Fotobeiträge, 3 Kanäle (Instagram, TikTok, Facebook), bis zu 3 Drehtermine im Monat.'),
     ('Rhythmus', '8 organische Reels pro Monat laut Paket, auf allen drei Kanälen. <span class="hh">Haurer-Empfehlung: etwa zwei pro Woche.</span>'),
     ('Reihenfolge', 'Bereits gedrehte Videos kommen zuerst. Sketche, Serie und zweideutige Clips wechseln sich ab, nie zwei zweideutige Clips direkt hintereinander.'),
-    ('Dreh 04.11.', 'Vier Videos gedreht: 01 Eisstockschießen auf dem MonBerg (Ad) · 02 „So früh hatte ich noch nie einen stehen.“ · 03 MonGarten vs. MonStrand – Das Duell · 05 „Kommt auf Fotos kleiner rüber.“ (mit Drohne) (mit Drohne)'),
+    ('Dreh 04.11.', 'Vier Videos gedreht: 01 Eisstockschießen auf dem MonBerg (Ad) · 02 „So früh hatte ich noch nie einen stehen.“ · 03 MonGarten vs. MonStrand – Das Duell · 05 „Kommt auf Fotos kleiner rüber.“ (mit Drohne)'),
     ('Dreh 19.11.', 'Drei Videos gedreht: 06 „Kurze Frage …“ · Wo kann ich parken? · 07 „Alleine krieg ich den nicht hoch.“ · 09 „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (Ad)'),
     ('Dreh 27.11.', 'Auf Kundenwunsch: Die dekorierte Location wird abgedreht (08).'),
     ('Anzeigen', 'Online: Eisstockschießen auf dem MonBerg. Ab Mo 23.11.: „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (09), nach eurer Freigabe.'),
