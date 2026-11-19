@@ -10,7 +10,7 @@ STAND = 'Stand: 19. November 2026'
 LEGENDE = [
     ('PLAN', 'Plan.', ''),
     ('HAURER', 'Empfehlung. Die Empfehlung von Haurer Media ist rein eine Empfehlung und basiert auf Erfahrung. Die Entscheidung obliegt euch: Wir geben lediglich eine Empfehlung ab, am Ende des Tages entscheidet ihr.', 'h'),
-    ('STATUS', '<span class="s-online">online</span> = gepostet · <span class="s-geschnitten">geschnitten</span> = fertig zum Posten · gedreht = im Schnitt · <span class="s-produktion">in Produktion</span> = wird gerade ohne Dreh gebaut · <span class="s-drehen">drehen</span> = Material fehlt noch', 'raw'),
+    ('STATUS', '<span class="s-online">online</span> = gepostet · <span class="s-geschnitten">geschnitten</span> = fertig zum Posten · gedreht = im Schnitt · <span class="s-produktion">in Produktion</span> = wird gerade erstellt · <span class="s-drehen">drehen</span> = Material fehlt noch', 'raw'),
 ]
 
 REGELN = [
@@ -18,11 +18,11 @@ REGELN = [
     ('Rhythmus', '8 organische Reels pro Monat laut Paket, auf allen drei Kanälen. <span class="hh">Haurer-Empfehlung: etwa zwei pro Woche.</span>'),
     ('Reihenfolge', 'Bereits gedrehte Videos kommen zuerst. Sketche, Serie und zweideutige Clips wechseln sich ab, nie zwei zweideutige Clips direkt hintereinander.'),
     ('Dreh 04.11.', 'Vier Videos gedreht: 01 Eisstockschießen auf dem MonBerg (Ad) · 02 „So früh hatte ich noch nie einen stehen.“ · 03 MonGarten vs. MonStrand – Das Duell · 05 „Kommt auf Fotos kleiner rüber.“ (mit Drohne)'),
-    ('Dreh 19.11.', 'Drei Videos gedreht: 07 „Kurze Frage …“ · Wo kann ich parken? · 09 „Alleine krieg ich den nicht hoch.“ (mit Fotobox statt Sonnenschirm) · 11 „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (Ad)'),
-    ('Dreh 27.11.', 'Auf Kundenwunsch: Die dekorierte Location wird abgedreht (06). Offen: ob an diesem Termin auch Videos aus dem Dezember gedreht werden.'),
-    ('Nächster Drehtermin', 'Für die übrigen Videos steht der Termin noch aus. Drehtermine stehen spätestens sieben Tage vorher fest. Alle Videos mit Status „drehen“ hängen an diesem Termin. Die Reihenfolge im Dezember ist eine Empfehlung, die Daten folgen, sobald der Termin feststeht.'),
+    ('Dreh 19.11.', 'Drei Videos gedreht: 07 „Kurze Frage …“ · Wo kann ich parken? · 09 „Alleine krieg ich den nicht hoch.“ · 11 „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (Ad)'),
+    ('Dreh 27.11.', 'Auf Kundenwunsch: Die dekorierte Location wird abgedreht (06).'),
+    ('Nächster Drehtermin', 'Steht noch aus. Drehtermine stehen spätestens sieben Tage vorher fest. Alle Videos mit Status „drehen“ hängen an diesem Termin. Die Reihenfolge im Dezember ist eine Empfehlung, die Daten folgen, sobald der Termin feststeht.'),
     ('Anzeigen', 'Vier Ad-Videos im Monat. Bisher online: Eisstockschießen. Gedreht am 19.11.: „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? Empfehlung für die nächsten Ads: Die Kündigung und das Angebotsvideo „Wo würde euer Team feiern?“, beide sprechen Firmenfeiern an.'),
-    ('Optional', 'Die Videos unter „Dezember · optional“ werden mitgedreht, wenn am Drehtag Zeit ist, und ersetzen bei Bedarf einen Termin oben. Es rutscht nichts in den Januar.'),
+    ('Optional', 'Die Videos unter „Dezember · optional“ werden mitgedreht, wenn am Drehtag Zeit ist. Es rutscht nichts in den Januar.'),
     ('Carousels', 'Vier Carousel- oder Fotobeiträge im Monat, noch nicht im Kalender. Empfehlung: aus dem Material der Drehtage, zum Beispiel die Bereiche des MonBerg im Überblick zur Weihnachtsfeier-Saison.'),
 ]
 
@@ -33,10 +33,10 @@ KALENDER = [
      '', 'Gepostet am 12.11. Als Anzeige bereits online.'),
     ('02', 'Mo 16.11.', 'So früh hatte ich noch nie einen stehen.', 'Zweideutig', 'online',
      '<b>Direkt nach dem Eisstockschießen</b> – solange der Weihnachtsbaum gerade aktuell ist.'),
-    ('03', 'Di 17.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'gedreht',
+    ('03', 'Fr 20.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'geschnitten',
      '<b>Kommt auf Fotos kleiner rüber (Zweideutig)</b> bewusst nicht direkt danach, sondern mit einem Sketch dazwischen.'),
     ('04', 'diese Woche', 'Die Firmenfeier ist freiwillig.', 'Sketch · Chatverlauf', 'produktion',
-     'Wird diese Woche als Chatverlauf umgesetzt, ohne Drehtag. Passt mitten in die Planung der Weihnachtsfeiern.'),
+     'Wird diese Woche als Chatverlauf umgesetzt. Passt mitten in die Planung der Weihnachtsfeiern.'),
     ('05', 'Di 24.11.', 'Kommt auf Fotos kleiner rüber.', 'Zweideutig', 'gedreht', ''),
     ('06', 'nach Dreh 27.11.', 'Die dekorierte Location', 'Location', 'drehen',
      '<b>Zum 1. Advent am So 29.11. posten</b> – zwei Tage nach dem Dreh, passend zum Start in die Adventszeit.',
@@ -47,18 +47,18 @@ KALENDER = [
     ('08', 'nach Drehtermin', 'Die Kündigung', 'Sketch', 'drehen',
      'Spricht Geschäftsführer und HR direkt an, mitten in der Saison der Firmenfeiern.'),
     ('09', 'nach Drehtermin', 'Alleine krieg ich den nicht hoch.', 'Zweideutig', 'gedreht',
-     'Dritter zweideutiger Clip. Umgesetzt mit einer <b>Fotobox</b> statt des Sonnenschirms.'),
+     'Dritter zweideutiger Clip.'),
     ('10', 'nach Drehtermin', 'Bitte keine Arbeitsthemen.', 'Kurzclip', 'drehen',
      'Passt genau in die Zeit, in der die Teams selbst feiern.'),
     ('11', 'nach Drehtermin', '„Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen?', 'Serie · Ad', 'gedreht',
      'Als <b>Ad-Video</b> gedreht. Organisch zusätzlich als Folge der Serie möglich.'),
     ('12', 'nach Drehtermin', 'Montag danach', 'Sketch', 'drehen',
-     'Nach den ersten Weihnachtsfeier-Wochenenden. Die Spuren im Büro auf Weihnachten anpassen: <b>Lametta statt Sand, Foto aus dem Wintergarten statt vom MonStrand.</b>'),
+     'Nach den ersten Weihnachtsfeier-Wochenenden, mit weihnachtlichen Spuren im Büro.'),
     ('13', 'nach Drehtermin', 'Was das Team wirklich denkt', 'Team', 'drehen',
      'Letzter Post vor Weihnachten. Zeigt das Team persönlich.'),
     ('DEZEMBER · OPTIONAL',),
     ('14', 'optional', '„Kurze Frage …“ · Und wenn’s regnet?', 'Serie', 'drehen',
-     'Wenn am Drehtag Zeit ist. Ersetzt sonst eine Folge der Serie oben.'),
+     'Wenn am Drehtag Zeit ist.'),
     ('15', 'optional', 'Wer übernimmt die Organisation?', 'Sketch', 'drehen',
      'Wenn gepostet, dann noch im Dezember, zum Beispiel zwischen den Jahren.'),
     ('16', 'optional', 'Wo würde euer Team feiern?', 'Angebot', 'drehen',
@@ -66,7 +66,7 @@ KALENDER = [
     ('17', 'optional', 'POV · Hinter der Bar', 'POV', 'drehen', 'Schnell gedreht, ohne eigenen Aufbau.'),
     ('18', 'optional', 'Vom Schreibtisch an den MonBerg', 'Image', 'drehen', ''),
     ('19', 'optional', 'Ich hab dir einen Termin eingestellt.', 'Kurzclip', 'drehen',
-     'Spielt im Liegestuhl am MonStrand. Nur mit Jacken und Decken als Winter-Fassung drehen, sonst weglassen.'),
+     'Spielt im Liegestuhl am MonStrand, als Winter-Fassung mit Jacken und Decken.'),
 ]
 
 CSS = '''

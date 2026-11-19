@@ -173,6 +173,8 @@ Mehmet → Smilance, Chris → Cafe New York).
 - **Anzeigen werden nie automatisch gepostet**, nur nach Kundenfreigabe.
 - **Keine .env mit echten Schlüsseln in ein Repository.**
 - **Erst zeigen, dann hochladen.** Texte und Beiträge sieht Harun vor der Veröffentlichung.
+- **Kundenfassungen zeigen nur den Stand**, nie was ausgetauscht, umgebaut oder nicht gemacht wurde
+  (kein „statt …“, „ohne Dreh“, „ersetzt“). Interne Notizen bleiben intern.
 - **Nichts erfinden.** Fehlt eine Angabe, steht „Offen: …" im Dokument statt einer Zahl.
 - Regeln gehören als Constraint in die Engine, nicht nur in eine Wissensdatei.
 
