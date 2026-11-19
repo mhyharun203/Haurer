@@ -51,5 +51,15 @@ Abgelehnt (nicht wieder vorschlagen): Strand im November, Stille Post, Blindwurf
 Wer kennt den Berg besser, Umfrage mit einem Gast (keine Gäste zum Drehen),
 Mein Lieblingsplatz (nur 2 Leute), Das Team in drei Worten (zu privat).
 
-Vorläufiges PDF mit allen 18 Ideen: `monberg/skripte/MonBerg_Drehskripte_18_2026-11-19.pdf`.
-Es enthält noch die abgelehnten und wird nach der nächsten Auswahl neu gebaut.
+## Ausgewählt, Runde 3 (19.11.2026)
+
+Sätze, die wir jede Woche hören · Event-Deutsch, Deutsch-Event · Der Anruf · Der Sitzplan ·
+Schnellfragerunde · 3 Dinge, die du vor der Firmenfeier klären solltest.
+Abgelehnt: Typen bei der Besichtigung, Red/Green Flag, Zwei Wahrheiten eine Lüge,
+POV Chef mit Mikro, Geplant vs. passiert, Der letzte Gast, Was wir sagen/meinen,
+Wenn Eventlocations ehrlich wären, Die Checkliste, Jury bewertet Ausreden.
+
+## Drehskripte
+
+`monberg/skripte/MonBerg_Drehskripte_17_2026-11-19.pdf`: alle 17 ausgewählten Ideen zum
+Vorlesen (Daten `mb_final_data.py`, baut auf `mb_ideen_data.py` auf, Renderer `mb_render.py`).
