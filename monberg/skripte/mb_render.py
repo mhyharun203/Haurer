@@ -44,6 +44,10 @@ h3 { font-size: 15.5pt; margin: 2mm 0 .5mm; color: #111; line-height: 1.15; }
 .ending div { padding: 2mm 3mm; }
 .ending .e1 { font-weight: 700; background: #f6efe1; width: 22mm; }
 .vorb { border: .8pt solid #e8e3d9; padding: 3mm 4mm; font-size: 8.8pt; }
+.adbox { border: 1pt solid #c9963e; background: #fff8ea; padding: 2.4mm 3.5mm; margin: 0 0 1mm; font-size: 8.6pt; }
+.adbox b { color: #b8862b; font-size: 7.6pt; letter-spacing: .05em; display: block; margin-bottom: 1mm; }
+.adbox p { margin: 0 0 1mm; } .adk { font-weight: 700; }
+.adline { font-size: 8.2pt; color: #6d675d; border-left: 1.5mm solid #e1dbd1; padding: 1mm 2.5mm; margin: 0 0 1mm; }
 .offen { color: #b8862b; font-weight: 700; }
 '''
 
@@ -53,12 +57,23 @@ def fmt(s):
     return s.replace('Offen:', '<span class="offen">Offen:</span>')
 
 
+def adbox(k):
+    a = k.get('ad')
+    if not a:
+        return ''
+    stufe, warum, fassung = a
+    if fassung:
+        return (f'<div class="adbox"><b>AD · ADPOTENZIAL {E(stufe.upper())}</b><p>{fmt(warum)}</p>'
+                f'<p><span class="adk">Ad-Fassung:</span> {fmt(fassung)}</p></div>')
+    return f'<div class="adline">Adpotenzial {E(stufe)}: {fmt(warum)}</div>'
+
+
 def skript(k, first):
     abl = ''.join(f'<p>{fmt(x)}</p>' for x in k['ablauf'])
     alt = f'<div class="ending"><div class="e1">Alternativ</div><div>{fmt(k["alt"])}</div></div>' if k.get('alt') else ''
     return f'''<section class="s{' first' if first else ''}">
 <h3><span class="sn">{E(k["nr"])}</span>{E(k["titel"])}</h3>
-<div class="tags">{E(k["tags"])}</div>
+<div class="tags">{E(k["tags"])}</div>{adbox(k)}
 <div class="lab">Hook</div><div class="hook">{fmt(k["hook"])}</div>
 <div class="lab">{E(D.get("ABLAUF_LAB", "Beispiel-Sprechtext / Ablauf"))}</div><div class="ablauf">{abl}</div>
 <div class="lab">Ending / CTA</div><div class="ending"><div class="e1">Ending</div><div>{fmt(k["ending"])}</div></div>{alt}

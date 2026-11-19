@@ -63,3 +63,12 @@ Wenn Eventlocations ehrlich wären, Die Checkliste, Jury bewertet Ausreden.
 
 `monberg/skripte/MonBerg_Drehskripte_17_2026-11-19.pdf`: alle 17 ausgewählten Ideen zum
 Vorlesen (Daten `mb_final_data.py`, baut auf `mb_ideen_data.py` auf, Renderer `mb_render.py`).
+
+## Dezember-Schlüsselung (19.11.2026)
+
+`monberg/skripte/MonBerg_Drehskripte_Dezember_17_2026-11-19.pdf` (Daten `mb_dez_data.py`).
+Vertrag 2026-0808-MB-B: 8 organisch + 4 Ads.
+- Ads (Adpotenzial hoch): 01 Ausreden vs. MonBerg · 02 Ja-Wort-Probe · 03 Schnellfragerunde · 04 3 Dinge vor der Firmenfeier
+- Organisch: 05 Eingang · 06 Telefonieren · 07 Sätze jede Woche · 08 Der Anruf · 09 Jury · 10 Sitzplan · 11 Event-Deutsch · 12 Unpopuläre Meinung
+- Optional: 13 Was er sagt · 14 Der Blick · 15 Erklär in 10 s · 16 Wer zuerst lacht · 17 Hör mal
+- Reserve-Ads (mittel): 08 Der Anruf (Folge 2/3), 07 Sätze, 10 Sitzplan
