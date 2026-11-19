@@ -34,3 +34,12 @@ Fast 3.500 m² Veranstaltungsfläche · bis zu 1.500 Gäste · offizielle Stande
 überdachter Wintergarten · Palmen, Quarzsand und Liegestühle am MonStrand ·
 Sonnenuntergang mit Blick auf den Rhein · MonGarten und MonStrand kombinierbar.
 Nicht verwenden: Höhe und Stufenzahl des Bergs (widersprüchliche Angaben).
+
+## Ausgearbeitet (19.11.2026)
+
+Alle Ideen als vorlesbare Drehskripte im MonBerg-Drehplan-Stil:
+`monberg/skripte/MonBerg_Drehskripte_18_2026-11-19.pdf` (Daten: `mb_ideen_data.py`,
+Renderer: `mb_render.py`). Neu dazugekommen und noch nicht von Harun ausgewählt:
+Strand im November, Stille Post, Blindwurf, Was er sagt/meint, Wer kennt den Berg besser,
+Umfrage mit einem Gast, Unpopuläre Meinung, Ja-Wort-Probe, Lieblingsplatz,
+Team in drei Worten, Hör mal wo wir sind.
