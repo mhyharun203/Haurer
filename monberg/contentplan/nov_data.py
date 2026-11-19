@@ -6,7 +6,7 @@ STAND = 'Stand: 19. November 2026'
 LEGENDE = [
     ('PLAN', 'Plan.', ''),
     ('HAURER', 'Empfehlung. Die Empfehlung von Haurer Media ist rein eine Empfehlung und basiert auf Erfahrung. Die Entscheidung obliegt euch: Wir geben lediglich eine Empfehlung ab, am Ende des Tages entscheidet ihr.', 'h'),
-    ('STATUS', '<span class="s-online">online</span> = gepostet · <span class="s-geschnitten">geschnitten</span> = fertig zum Posten · gedreht = im Schnitt · <span class="s-produktion">in Produktion</span> = wird gerade erstellt · <span class="s-drehen">drehen</span> = Material fehlt noch', 'raw'),
+    ('STATUS', '<span class="s-online">online</span> = gepostet · gedreht = Material ist da · <span class="s-drehen">drehen</span> = Material fehlt noch', 'raw'),
 ]
 
 REGELN = [
@@ -26,9 +26,9 @@ KALENDER = [
      '', 'Gepostet am 12.11. Als Anzeige bereits online.'),
     ('02', 'Mo 16.11.', 'So früh hatte ich noch nie einen stehen.', 'Zweideutig', 'online',
      ''),
-    ('03', 'Fr 20.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'geschnitten',
+    ('03', 'Fr 20.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'gedreht',
      ''),
-    ('04', 'So 22.11.', 'Die Firmenfeier ist freiwillig.', 'Sketch · Chatverlauf', 'produktion',
+    ('04', 'So 22.11.', 'Die Firmenfeier ist freiwillig.', 'Sketch · Chatverlauf', 'drehen',
      'Wird diese Woche als Chatverlauf umgesetzt. Passt mitten in die Planung der Weihnachtsfeiern.'),
     ('05', 'Di 24.11.', 'Kommt auf Fotos kleiner rüber.', 'Zweideutig', 'gedreht', ''),
     ('06', 'Do 26.11.', '„Kurze Frage …“ · Wo kann ich parken?', 'Serie', 'gedreht', ''),

@@ -5,7 +5,7 @@ STAND = 'Stand: 19. November 2026'
 LEGENDE = [
     ('PLAN', 'Plan.', ''),
     ('HAURER', 'Empfehlung. Die Empfehlung von Haurer Media ist rein eine Empfehlung und basiert auf Erfahrung. Die Entscheidung obliegt euch: Wir geben lediglich eine Empfehlung ab, am Ende des Tages entscheidet ihr.', 'h'),
-    ('STATUS', '<span class="s-online">online</span> = gepostet · <span class="s-geschnitten">geschnitten</span> = fertig zum Posten · gedreht = im Schnitt · <span class="s-drehen">drehen</span> = Material fehlt noch', 'raw'),
+    ('STATUS', '<span class="s-online">online</span> = gepostet · gedreht = Material ist da · <span class="s-drehen">drehen</span> = Material fehlt noch', 'raw'),
 ]
 
 REGELN = [
