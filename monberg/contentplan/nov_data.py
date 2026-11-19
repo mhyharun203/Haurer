@@ -14,6 +14,7 @@ REGELN = [
     ('Rhythmus', '8 organische Reels pro Monat laut Paket, auf allen drei Kanälen. <span class="hh">Haurer-Empfehlung: etwa zwei pro Woche.</span>'),
     ('Reihenfolge', 'Bereits gedrehte Videos kommen zuerst. Sketche, Serie und zweideutige Clips wechseln sich ab, nie zwei zweideutige Clips direkt hintereinander.'),
     ('Dreh 04.11.', 'Vier Videos gedreht: 01 Eisstockschießen auf dem MonBerg (Ad) · 02 „So früh hatte ich noch nie einen stehen.“ · 03 „Kommt auf Fotos kleiner rüber.“ · 04 MonGarten vs. MonStrand – Das Duell (mit Drohne)'),
+    ('Dreh 19.11.', 'Drei Videos gedreht, geplant für Dezember (siehe Contentplan Dezember): „Kurze Frage …“ · Wo kann ich parken? (Dezember 01) · „Alleine krieg ich den nicht hoch.“ (Dezember 02) · „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (Dezember 09, Ad)'),
     ('Dreh 27.11.', 'Auf Kundenwunsch: Die dekorierte Location wird abgedreht (06).'),
     ('Anzeigen', 'Online: Eisstockschießen auf dem MonBerg.'),
 ]
