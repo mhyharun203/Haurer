@@ -25,7 +25,7 @@ KALENDER = [
     ('NOVEMBER',),
     ('01', 'Do 12.11.', 'Eisstockschießen auf dem MonBerg', 'Sketch', 'online', ''),
     ('02', 'Mo 16.11.', 'So früh hatte ich noch nie einen stehen.', 'Zweideutig', 'online', ''),
-    ('03', 'Fr 20.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'gedreht', ''),
+    ('03', 'Fr 20.11.', 'MonGarten vs. MonStrand · Das Duell', 'Sketch', 'online', ''),
     ('04', 'Di 24.11.', 'Die Firmenfeier ist freiwillig.', 'Sketch · Chatverlauf', 'drehen',
      'Passt mitten in die Planung der Weihnachtsfeiern.'),
     ('05', 'Mi 25.11.', 'Kommt auf Fotos kleiner rüber.', 'Zweideutig', 'gedreht', ''),
