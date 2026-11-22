@@ -15,7 +15,7 @@ REIHE_H = ('REIHENFOLGE', 'SKRIPT', 'ZEIT')
 
 INTRO = [
     ('Absicht des Drehs',
-     'Vier Skripte für einen Abenddreh an der Bar: eine Ad und zwei Serienformate und einen Sketch zur Weihnachtsfeier. '
+     'Vier Skripte für einen Abenddreh an der Bar: zwei Ads und zwei Serienformate. '
      'Jede Rolle hat ihre Sätze wörtlich. Am Set wird Satz für Satz vorgelesen und direkt gespielt. Versprecher sind kein Problem: Satz neu ansetzen, der Schnitt verdichtet.'),
     ('Besetzung',
      'Team 1 und Team 2: zwei Personen aus dem MonBerg-Team. Gast: eine Person, die einen Besucher oder Kunden spielt. Hinter der Kamera: Haurer Media.'),
@@ -38,7 +38,7 @@ REIHENFOLGE = [
     ('1', '01 Ausreden vs. MonBerg (Ad)', 'ca. 20 Min.'),
     ('2', '07 Sätze, die wir jede Woche hören · 5 Folgen', 'ca. 20 Min.'),
     ('3', '13 Was er sagt, was er meint · 3 Folgen', 'ca. 15 Min.'),
-    ('4', '10 Der Sitzplan', 'ca. 15 Min.'),
+    ('4', '10 Der Sitzplan (Ad)', 'ca. 15 Min.'),
 ]
 KLAEREN = []
 BLOECKE = []
@@ -68,7 +68,7 @@ B('AD · AN DER BAR', 'Team 1, Team 2, Gast · ca. 20 Minuten.',
         'Hook in der ersten Sekunde, ohne Einleitung. Jeder Konter mit Fakt als Einblendung. Am Ende „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe.')),
 )
 
-B('SERIEN & SKETCH · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 10 · ca. 50 Minuten. Gleiche Plätze und gleicher Bildausschnitt für alle Folgen einer Serie.',
+B('SERIEN & AD · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 10 · ca. 50 Minuten. Gleiche Plätze und gleicher Bildausschnitt für alle Folgen einer Serie.',
   K('07', 'Sätze, die wir jede Woche hören', 'Serie · Sketch · 8–12 s je Folge · Team 1, Team 2, Gast',
     'Gast: „Wir sind so ca. 100 Leute.“',
     ['Der Gast sitzt an der Bar und erzählt von seiner Feier. Team 1 und Team 2 stehen ihm gegenüber, Team 2 mit der Mappe. Der Gast sagt einen Anfrage-Klassiker, das Team reagiert trocken, fast ohne Worte. Jede Folge ist ein eigener Clip.',
@@ -94,17 +94,22 @@ B('SERIEN & SKETCH · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 10 �
     'Letzte Einblendung bleibt kurz stehen, Gast lächelt unschuldig in die Kamera → Cut.',
     'Einstellungen: 1. Gast nah, mit Platz unten im Bild für die Einblendung. 2. Team 1 nah für die Rückfragen. Nach jedem Satz des Gastes zwei Sekunden Pause halten, '
     'dort steht später die Einblendung. Der Gast spielt nie übertrieben, der Witz steht allein in der Schrift. Drei Folgen am Stück drehen.'),
-  K('10', 'Der Sitzplan', 'Sketch · 20–25 s · Team 1, Team 2, Gast',
-    'Gast mit Zettel: „Also. Sitzplan.“',
+  K('10', 'Der Sitzplan', 'Sketch · Ad · 20–25 s · Team 1, Team 2, Gast',
+    'Einblendung: „Wenn du den Sitzplan für die Weihnachtsfeier machen musst.“ · Gast: „Vertrieb nicht neben Buchhaltung.“',
     ['Team 1 und Team 2 sitzen an einem Bartisch oder am Tresen, Team 2 mit Mappe und Stift. Der Gast spielt den Kollegen aus dem Orga-Team, der die Weihnachtsfeier plant, und liest von einem Zettel ab. Er wird mit jedem Punkt komplizierter, das Team bleibt ruhig.',
-     'Gast: „Also. Sitzplan. Vertrieb nicht neben Buchhaltung.“ · Team 2 nickt und schreibt.',
+     'Gast, sofort, ohne Einleitung: „Vertrieb nicht neben Buchhaltung.“ · Team 2 nickt und schreibt.',
      'Gast: „Marketing nicht neben IT, die reden sonst nur über Passwörter.“ · Team 2 schreibt weiter.',
      'Gast: „Und Jürgen nicht neben Jürgen.“ · Team 1: „Wie viele Jürgens habt ihr?“ · Gast: „Vier.“',
      'Gast: „Der Chef in die Mitte. Nein, doch nicht. An den Rand. Nein, doch in die Mitte …“',
      'Team 1 und Team 2 schauen sich an. Team 2, ganz ruhig: „Wie wär’s mit freier Platzwahl?“',
-     'Der Gast lässt den Zettel sinken und schaut die beiden lange an: „… ihr seid Genies.“'],
-    '„Ihr seid Genies.“ → Gast zerknüllt den Zettel → Cut.',
-    'Worum es geht: Jeder, der schon mal eine Firmenfeier organisiert hat, kennt den Sitzplan-Stress. Das Team nimmt ihn mit einem einzigen Satz ab, ohne Werbung, nur mit Gelassenheit. '
+     'Der Gast lässt den Zettel sinken und schaut die beiden lange an: „… ihr seid Genies.“',
+     'Team 1, entspannt: „Bis zu 1.500 Gäste, fast 3.500 Quadratmeter. Da findet jeder seinen Platz.“',
+     'Team 2, trocken: „Auch alle vier Jürgens.“'],
+    '„Auch alle vier Jürgens.“ → Gast zerknüllt den Zettel und wirft ihn hinter sich → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
+    'Worum es geht: Jeder, der schon mal eine Firmenfeier organisiert hat, kennt den Sitzplan-Stress. Das Team nimmt ihn mit einem Satz ab und liefert danach die Fakten, warum das am MonBerg funktioniert. '
     'Einstellungen: 1. Halbtotale auf alle drei am Tisch, Bar im Hintergrund. 2. Gast nah für jeden Punkt. 3. Team 1 und Team 2 nah für die Reaktionen und „freie Platzwahl“. '
-    'Jeder Punkt des Gastes ein eigener Take, schneller werden zum Ende hin. Die Namen sind Beispiele, nur keine echten Kunden- oder Mitarbeiternamen. Einen beschriebenen Zettel für den Gast bereitlegen.'),
+    'Jeder Punkt des Gastes ein eigener Take, schneller werden zum Ende hin. Die Namen sind Beispiele, nur keine echten Kunden- oder Mitarbeiternamen. Einen beschriebenen Zettel für den Gast bereitlegen. Die zwei Schlusssätze zusätzlich einzeln aufnehmen, damit die Ad auch ohne „Genies“ geschnitten werden kann.',
+    ad=('hoch',
+        'Trifft genau die Person, die die Feier organisiert und die Location aussucht. Das Problem kennt jeder ohne Vorwissen, die Pointe bleibt hängen, und am Ende stehen zwei belegte Fakten und die Aufforderung.',
+        'Die Einblendung „Wenn du den Sitzplan für die Weihnachtsfeier machen musst.“ steht ab der ersten Sekunde, der Gast startet ohne Einleitung. Fakten zusätzlich als Einblendung. Schluss: „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe. Im Frühjahr als Sommerfest-Fassung.')),
 )
