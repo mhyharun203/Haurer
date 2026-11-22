@@ -15,7 +15,7 @@ REIHE_H = ('REIHENFOLGE', 'SKRIPT', 'ZEIT')
 
 INTRO = [
     ('Absicht des Drehs',
-     'Vier Skripte für einen Abenddreh an der Bar: eine Ad und drei Serienformate, die viele Folgen aus einem Aufbau liefern. '
+     'Vier Skripte für einen Abenddreh an der Bar: eine Ad und zwei Serienformate und einen Sketch zur Weihnachtsfeier. '
      'Jede Rolle hat ihre Sätze wörtlich. Am Set wird Satz für Satz vorgelesen und direkt gespielt. Versprecher sind kein Problem: Satz neu ansetzen, der Schnitt verdichtet.'),
     ('Besetzung',
      'Team 1 und Team 2: zwei Personen aus dem MonBerg-Team. Gast: eine Person, die einen Besucher oder Kunden spielt. Hinter der Kamera: Haurer Media.'),
@@ -23,23 +23,22 @@ INTRO = [
      'Alles an der Bar. Die Barbeleuchtung ist das Hauptlicht, dazu ein Licht von vorn auf die Gesichter. Im Hintergrund soll die Bar mit Gläsern und Flaschen erkennbar sein, '
      'damit man den Ort sofort sieht. Das Fenster nach draußen nicht ins Bild nehmen.'),
     ('Requisiten',
-     'Eine Mappe und ein dicker Stift (07) · vorgeschriebene Seiten in der Mappe mit „140“ und „bis 3 Uhr“ (07) · zwei Gläser mit Getränk für den Gast (01, 13) · '
+     'Eine Mappe und ein dicker Stift (07) · vorgeschriebene Seiten in der Mappe mit „140“ und „bis 3 Uhr“ (07) · zwei Gläser mit Getränk für den Gast (01, 13) · ein Zettel mit dem Sitzplan für den Gast (10) · '
      'nichts weiter, alles andere liefert die Bar.'),
 ]
 
 LOOKS = [
     ('Team 1 und Team 2', 'Arbeitskleidung, wie das Team bei einer Veranstaltung aussieht', 'In allen vier Skripten gleich, damit man die Serien wiedererkennt.'),
-    ('Gast', 'Alltagskleidung, Jacke an oder über dem Hocker', 'In 01 als Mitarbeiter einer Firma, in 07 und 13 als Kunde bei der Anfrage. Kleidung darf gleich bleiben.'),
+    ('Gast', 'Alltagskleidung, Jacke an oder über dem Hocker', 'In 01 als Mitarbeiter einer Firma, in 07 und 13 als Kunde bei der Anfrage, in 10 als Orga-Kollege. Kleidung darf gleich bleiben.'),
 ]
 LOOK_HINWEIS = 'Empfehlung / Orientierung: Die konkreten Teile entscheidet jede Person selbst.'
 
-REIHENFOLGE_TEXT = ('Zuerst die Ad, solange alle frisch sind. Danach die beiden Formate mit dem Gast, zum Schluss die Kamera-Sätze ohne Gast. '
-                    'Gesamt etwa 75 Minuten.')
+REIHENFOLGE_TEXT = ('Zuerst die Ad, solange alle frisch sind. Danach die beiden Serien, zum Schluss der Sitzplan. Gesamt etwa 70 Minuten.')
 REIHENFOLGE = [
     ('1', '01 Ausreden vs. MonBerg (Ad)', 'ca. 20 Min.'),
     ('2', '07 Sätze, die wir jede Woche hören · 5 Folgen', 'ca. 20 Min.'),
     ('3', '13 Was er sagt, was er meint · 3 Folgen', 'ca. 15 Min.'),
-    ('4', '12 Unpopuläre Meinung · 8 Folgen, der Gast hat Pause', 'ca. 20 Min.'),
+    ('4', '10 Der Sitzplan', 'ca. 15 Min.'),
 ]
 KLAEREN = []
 BLOECKE = []
@@ -69,7 +68,7 @@ B('AD · AN DER BAR', 'Team 1, Team 2, Gast · ca. 20 Minuten.',
         'Hook in der ersten Sekunde, ohne Einleitung. Jeder Konter mit Fakt als Einblendung. Am Ende „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe.')),
 )
 
-B('SERIEN · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 12 · ca. 55 Minuten. Gleiche Plätze und gleicher Bildausschnitt für alle Folgen einer Serie.',
+B('SERIEN & SKETCH · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 10 · ca. 50 Minuten. Gleiche Plätze und gleicher Bildausschnitt für alle Folgen einer Serie.',
   K('07', 'Sätze, die wir jede Woche hören', 'Serie · Sketch · 8–12 s je Folge · Team 1, Team 2, Gast',
     'Gast: „Wir sind so ca. 100 Leute.“',
     ['Der Gast sitzt an der Bar und erzählt von seiner Feier. Team 1 und Team 2 stehen ihm gegenüber, Team 2 mit der Mappe. Der Gast sagt einen Anfrage-Klassiker, das Team reagiert trocken, fast ohne Worte. Jede Folge ist ein eigener Clip.',
@@ -95,18 +94,17 @@ B('SERIEN · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 12 · ca. 55 
     'Letzte Einblendung bleibt kurz stehen, Gast lächelt unschuldig in die Kamera → Cut.',
     'Einstellungen: 1. Gast nah, mit Platz unten im Bild für die Einblendung. 2. Team 1 nah für die Rückfragen. Nach jedem Satz des Gastes zwei Sekunden Pause halten, '
     'dort steht später die Einblendung. Der Gast spielt nie übertrieben, der Witz steht allein in der Schrift. Drei Folgen am Stück drehen.'),
-  K('12', 'Unpopuläre Meinung', 'Direkt in die Kamera · Serie · 6–8 s je Folge · Team 1 und Team 2 abwechselnd',
-    'Einblendung: „Unpopuläre Meinung:“',
-    ['Team 1 und Team 2 stehen abwechselnd allein hinter der Bar und sprechen direkt in die Kamera, ein Satz pro Folge. Vor dem Satz eine kurze Pause, Blick fest in die Linse, danach eine kleine Reaktion: Nicken, Schulterzucken oder ein Glas abstellen.',
-     'Team 1: „Die Weihnachtsfeier muss nicht im Dezember sein.“',
-     'Team 2: „Die beste Firmenfeier ist die, bei der keiner eine Rede hält.“',
-     'Team 1: „Ein Sommerfest plant man im Winter.“',
-     'Team 2: „Wichteln ist keine Teambuilding-Maßnahme.“',
-     'Team 1: „Der Konferenzraum ist kein Partyraum. Egal wie viele Luftballons.“',
-     'Team 2: „Strand geht auch im November. Mit Jacke.“',
-     'Team 1: „Wer ‚nur was Kleines‘ plant, plant zu klein.“',
-     'Team 2: „Die Feier fängt erst an, wenn der Chef nach Hause geht.“'],
-    'Kleine Reaktion nach dem Satz → Cut. Unten eingeblendet: „Stimmst du zu?“',
-    'Eine Einstellung für alle Folgen: Halbnah, die Person mittig hinter dem Tresen, Bar und Flaschen im Hintergrund. Beide stehen an genau derselben Stelle, Markierung auf dem Boden. '
-    'Jeden Satz zwei Mal: einmal todernst, einmal mit leichtem Grinsen. Acht Folgen in etwa 20 Minuten. Der Gast hat in dieser Zeit Pause.'),
+  K('10', 'Der Sitzplan', 'Sketch · 20–25 s · Team 1, Team 2, Gast',
+    'Gast mit Zettel: „Also. Sitzplan.“',
+    ['Team 1 und Team 2 sitzen an einem Bartisch oder am Tresen, Team 2 mit Mappe und Stift. Der Gast spielt den Kollegen aus dem Orga-Team, der die Weihnachtsfeier plant, und liest von einem Zettel ab. Er wird mit jedem Punkt komplizierter, das Team bleibt ruhig.',
+     'Gast: „Also. Sitzplan. Vertrieb nicht neben Buchhaltung.“ · Team 2 nickt und schreibt.',
+     'Gast: „Marketing nicht neben IT, die reden sonst nur über Passwörter.“ · Team 2 schreibt weiter.',
+     'Gast: „Und Jürgen nicht neben Jürgen.“ · Team 1: „Wie viele Jürgens habt ihr?“ · Gast: „Vier.“',
+     'Gast: „Der Chef in die Mitte. Nein, doch nicht. An den Rand. Nein, doch in die Mitte …“',
+     'Team 1 und Team 2 schauen sich an. Team 2, ganz ruhig: „Wie wär’s mit freier Platzwahl?“',
+     'Der Gast lässt den Zettel sinken und schaut die beiden lange an: „… ihr seid Genies.“'],
+    '„Ihr seid Genies.“ → Gast zerknüllt den Zettel → Cut.',
+    'Worum es geht: Jeder, der schon mal eine Firmenfeier organisiert hat, kennt den Sitzplan-Stress. Das Team nimmt ihn mit einem einzigen Satz ab, ohne Werbung, nur mit Gelassenheit. '
+    'Einstellungen: 1. Halbtotale auf alle drei am Tisch, Bar im Hintergrund. 2. Gast nah für jeden Punkt. 3. Team 1 und Team 2 nah für die Reaktionen und „freie Platzwahl“. '
+    'Jeder Punkt des Gastes ein eigener Take, schneller werden zum Ende hin. Die Namen sind Beispiele, nur keine echten Kunden- oder Mitarbeiternamen. Einen beschriebenen Zettel für den Gast bereitlegen.'),
 )
