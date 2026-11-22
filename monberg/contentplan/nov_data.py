@@ -14,10 +14,10 @@ REGELN = [
     ('Rhythmus', '8 organische Reels pro Monat laut Paket, auf allen drei Kanälen. <span class="hh">Haurer-Empfehlung: etwa zwei pro Woche.</span>'),
     ('Reihenfolge', 'Bereits gedrehte Videos kommen zuerst. Sketche, Serie und zweideutige Clips wechseln sich ab, nie zwei zweideutige Clips direkt hintereinander.'),
     ('Dreh 04.11.', 'Vier Videos gedreht: 01 Eisstockschießen auf dem MonBerg (Ad) · 02 „So früh hatte ich noch nie einen stehen.“ · 03 MonGarten vs. MonStrand – Das Duell · 05 „Kommt auf Fotos kleiner rüber.“ (mit Drohne)'),
-    ('Dreh 19.11.', 'Drei Videos gedreht: 07 „Kurze Frage …“ · Wo kann ich parken? · 08 „Alleine krieg ich den nicht hoch.“ · 11 „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (Ad)'),
-    ('Dreh 23.11.', 'Abenddreh an der Bar: 06 Was er sagt, was er meint · 10 Sätze, die wir jede Woche hören · 12 Ausreden vs. MonBerg (Ad) · 13 Der Sitzplan (Ad)'),
+    ('Dreh 19.11.', 'Drei Videos gedreht: 07 „Kurze Frage …“ · Wo kann ich parken? · 08 „Alleine krieg ich den nicht hoch.“ · 10 „Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen? (Ad)'),
+    ('Dreh 23.11.', 'Abenddreh an der Bar: 06 Was er sagt, was er meint · 11 Ausreden vs. MonBerg (Ad) · 12 Der Sitzplan (Ad) · dazu „Sätze, die wir jede Woche hören“ für Dezember'),
     ('Dreh 27.11.', 'Auf Kundenwunsch: Die dekorierte Location wird abgedreht (09).'),
-    ('Anzeigen', 'Online: Eisstockschießen auf dem MonBerg. Dazu drei weitere Ads im November (11–13). Geschaltet wird jeweils nach eurer Freigabe.'),
+    ('Anzeigen', 'Online: Eisstockschießen auf dem MonBerg. Dazu drei weitere Ads im November (10–12). Geschaltet wird jeweils nach eurer Freigabe.'),
 ]
 
 # (nr, datum, video, format, status, haurer, notiz)  | Monatszeile: ('MONAT',)
@@ -36,13 +36,11 @@ KALENDER = [
     ('09', 'So 29.11.', 'Die dekorierte Location', 'Location', 'drehen',
      'Zum 1. Advent, zwei Tage nach dem Dreh, passend zum Start in die Adventszeit.',
      'Auf Kundenwunsch. Dreh am Fr 27.11.'),
-    ('10', 'Mo 30.11.', 'Sätze, die wir jede Woche hören', 'Serie', 'drehen',
-     'Fünf Folgen aus einem Dreh. Die erste im November, die übrigen als Vorrat für Dezember.', 'Dreh am Mo 23.11.'),
     ('NOVEMBER · ADS',),
-    ('11', 'Mo 23.11.', '„Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen?', 'Serie · Ad', 'gedreht', '',
+    ('10', 'Mo 23.11.', '„Kurze Frage …“ · Habt ihr Platz für zwei weitere Personen?', 'Serie · Ad', 'gedreht', '',
      'Schaltung als Anzeige nach eurer Freigabe.'),
-    ('12', 'Mi 25.11.', 'Ausreden vs. MonBerg', 'Sketch · Ad', 'drehen', '',
+    ('11', 'Mi 25.11.', 'Ausreden vs. MonBerg', 'Sketch · Ad', 'drehen', '',
      'Dreh am Mo 23.11. Schaltung nach eurer Freigabe.'),
-    ('13', 'Fr 27.11.', 'Der Sitzplan', 'Sketch · Ad', 'drehen', '',
+    ('12', 'Fr 27.11.', 'Der Sitzplan', 'Sketch · Ad', 'drehen', '',
      'Dreh am Mo 23.11. Schaltung nach eurer Freigabe.'),
 ]
