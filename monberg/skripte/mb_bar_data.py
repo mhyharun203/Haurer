@@ -131,9 +131,9 @@ B('TREND · INNENBEREICHE', 'Team 1, Team 2, Gast · Skript 18 · ca. 20 Minuten
      '7 · Die Wende · Freie Fläche vorn im Zelt: „Hier hält dein Chef seine Rede.“ → hinter der Bar, der Gast kauert auf dem Boden und hält sich den Finger an die Lippen: „Und hier versteckst du dich davor.“',
      'CTA · Team 1 dreht sich zur Kamera und zeigt direkt hinein: „Und hier fragst du an.“'],
     '„Und hier fragst du an.“ → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
-    'Tempo ist alles: Jede Einstellung kurz halten, im Schnitt hart auf den Satz schneiden. Den ersten Satz spricht Team 1 im Bild oder als Stimme hinter der Kamera, „Hier eher nicht.“ immer gleich trocken. '
-    'Requisiten: keine. Alles, was vorkommt, ist vor Ort: Stühle, Getränkekisten, ein Tablett, ein Glas. Fehlt ein Raum, die Station einfach weglassen, das Format trägt auch mit vier Paaren. '
-    'Einstellungen: Handkamera, die schönen Bereiche weit und ruhig, die „eher nicht“-Bilder eng und frontal. Station 7 und den CTA zusätzlich einzeln aufnehmen. Für Station 4 ein Plastikglas oder einen Untersetzer nehmen. Ist die Eisstockbahn nicht beleuchtet, das „Hier kannst du“-Bild aus dem Material der Eisstock-Ad nehmen. Den Text jeder Station als Einblendung mitlaufen lassen.',
+    'Tempo ist alles: kurze Einstellungen, harte Schnitte, „Hier eher nicht.“ immer gleich trocken. '
+    'Requisiten: keine. Alles, was vorkommt, ist vor Ort: Stühle, Getränkekisten, ein Tablett, ein Glas. Fehlt ein Raum, die Station weglassen. '
+    'Einstellungen: Handkamera, die schönen Bereiche weit und ruhig, die „eher nicht“-Bilder eng und frontal. Station 7 und den CTA zusätzlich einzeln aufnehmen. Für Station 4 ein Plastikglas oder einen Untersetzer nehmen. Ist die Eisstockbahn nicht beleuchtet, das „Hier kannst du“-Bild aus dem Material der Eisstock-Ad nehmen. Text jeder Station als Einblendung.',
     ad=('hoch',
         'Zeigt in 25 Sekunden alle Innenbereiche und das Eisstockschießen, trägt die belegten Fakten (bis zu 1.500 Gäste, überdachter Wintergarten) und wird mit jeder Station witziger. Die Wende und der CTA am Ende machen es zur stärksten Ad aus diesem Dreh.',
         'Station 1 ist die Hook, ohne Einleitung. Der CTA „Und hier fragst du an.“ ist das Ende, darunter „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe. Später als Sommer-Fassung mit MonStrand und MonGarten.')),
