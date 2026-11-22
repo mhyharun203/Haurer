@@ -125,15 +125,16 @@ B('TREND · INNENBEREICHE', 'Team 1, Team 2, Gast · Skript 18 · ca. 20 Minuten
      '1 · Zelt, groß und leer: „Hier passen bis zu 1.500 Gäste.“ → Abstellraum, Team 2 und der Gast stehen eingequetscht, Schulter an Schulter, starren in die Kamera: „Hier eher nicht.“',
      '2 · Tanzfläche: „Hier kannst du tanzen.“ → Kühlraum oder Teamküche, Team 2 tanzt steif und zitternd vor sich hin: „Hier eher nicht.“',
      '3 · Überdachter Wintergarten: „Hier feierst du, auch wenn’s regnet.“ → Tür nach draußen ins Dunkle, Team 2 hält sich ein Tablett über den Kopf: „Hier eher nicht.“',
-     '4 · Sitzbereich: „Hier sitzt du bequem.“ → Lager, Team 2 balanciert auf einem Stapel Stühle oder einer Getränkekiste: „Hier eher nicht.“',
-     '5 · Zelt: „Hier feierst du mit deinem ganzen Team.“ → kleiner Nebenraum, der Gast sitzt allein und klatscht für sich selbst: „Hier eher nicht.“',
-     '6 · Die Wende · Freie Fläche vorn im Zelt: „Hier hält dein Chef seine Rede.“ → hinter der Bar, der Gast kauert auf dem Boden und hält sich den Finger an die Lippen: „Und hier versteckst du dich davor.“',
+     '4 · Eisstockbahn: „Hier kannst du Eisstock schießen.“ → an der Bar schiebt Team 2 todernst ein Glas über den Tresen wie einen Eisstock, der Gast fängt es am anderen Ende mit beiden Händen: „Hier eher nicht.“',
+     '5 · Sitzbereich: „Hier sitzt du bequem.“ → Lager, Team 2 balanciert auf einem Stapel Stühle oder einer Getränkekiste: „Hier eher nicht.“',
+     '6 · Zelt: „Hier feierst du mit deinem ganzen Team.“ → kleiner Nebenraum, der Gast sitzt allein und klatscht für sich selbst: „Hier eher nicht.“',
+     '7 · Die Wende · Freie Fläche vorn im Zelt: „Hier hält dein Chef seine Rede.“ → hinter der Bar, der Gast kauert auf dem Boden und hält sich den Finger an die Lippen: „Und hier versteckst du dich davor.“',
      'CTA · Team 1 dreht sich zur Kamera und zeigt direkt hinein: „Und hier fragst du an.“'],
     '„Und hier fragst du an.“ → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
     'Tempo ist alles: Jede Einstellung kurz halten, im Schnitt hart auf den Satz schneiden. Den ersten Satz spricht Team 1 im Bild oder als Stimme hinter der Kamera, „Hier eher nicht.“ immer gleich trocken. '
-    'Requisiten: keine. Alles, was vorkommt, ist vor Ort: Stühle, Getränkekisten, ein Tablett. Fehlt ein Raum, die Station einfach weglassen, das Format trägt auch mit vier Paaren. '
-    'Einstellungen: Handkamera, die schönen Bereiche weit und ruhig, die „eher nicht“-Bilder eng und frontal. Station 6 und den CTA zusätzlich einzeln aufnehmen. Den Text jeder Station als Einblendung mitlaufen lassen.',
+    'Requisiten: keine. Alles, was vorkommt, ist vor Ort: Stühle, Getränkekisten, ein Tablett, ein Glas. Fehlt ein Raum, die Station einfach weglassen, das Format trägt auch mit vier Paaren. '
+    'Einstellungen: Handkamera, die schönen Bereiche weit und ruhig, die „eher nicht“-Bilder eng und frontal. Station 7 und den CTA zusätzlich einzeln aufnehmen. Für Station 4 ein Plastikglas oder einen Untersetzer nehmen. Ist die Eisstockbahn nicht beleuchtet, das „Hier kannst du“-Bild aus dem Material der Eisstock-Ad nehmen. Den Text jeder Station als Einblendung mitlaufen lassen.',
     ad=('hoch',
-        'Zeigt in 25 Sekunden alle Innenbereiche, trägt die belegten Fakten (bis zu 1.500 Gäste, überdachter Wintergarten) und wird mit jeder Station witziger. Die Wende und der CTA am Ende machen es zur stärksten Ad aus diesem Dreh.',
+        'Zeigt in 25 Sekunden alle Innenbereiche und das Eisstockschießen, trägt die belegten Fakten (bis zu 1.500 Gäste, überdachter Wintergarten) und wird mit jeder Station witziger. Die Wende und der CTA am Ende machen es zur stärksten Ad aus diesem Dreh.',
         'Station 1 ist die Hook, ohne Einleitung. Der CTA „Und hier fragst du an.“ ist das Ende, darunter „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe. Später als Sommer-Fassung mit MonStrand und MonGarten.')),
 )
