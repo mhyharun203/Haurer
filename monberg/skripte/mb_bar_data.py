@@ -7,15 +7,15 @@ def K(nr, titel, tags, hook, ablauf, ending, vorbereitung, alt_ending=None, ad=N
     return dict(nr=nr, titel=titel, tags=tags, hook=hook, ablauf=ablauf, ending=ending, alt=alt_ending, vorb=vorbereitung, ad=ad)
 
 
-KOPF = 'MonBerg · Drehskripte Bar · Kundenfassung · Stand 20.11. · 2026-1120-MB-D'
+KOPF = 'MonBerg · Drehskripte Bar · Kundenfassung · Stand 22.11. · 2026-1122-MB-D'
 TITEL = 'MonBerg · Drehskripte an der Bar'
-UNTER = 'KUNDENFASSUNG · 4 SKRIPTE ZUM VORLESEN · STAND 20.11.2026'
+UNTER = 'KUNDENFASSUNG · 5 SKRIPTE ZUM VORLESEN · DREH 23.11.2026'
 ABLAUF_LAB = 'Sprechtext zum Vorlesen / Ablauf'
 REIHE_H = ('REIHENFOLGE', 'SKRIPT', 'ZEIT')
 
 INTRO = [
     ('Absicht des Drehs',
-     'Vier Skripte für einen Abenddreh an der Bar: zwei Ads und zwei Serienformate. '
+     'Fünf Skripte für einen Abenddreh an der Bar und in den Innenbereichen: drei Ads und zwei Serienformate. '
      'Jede Rolle hat ihre Sätze wörtlich. Am Set wird Satz für Satz vorgelesen und direkt gespielt. Versprecher sind kein Problem: Satz neu ansetzen, der Schnitt verdichtet.'),
     ('Besetzung',
      'Team 1 und Team 2: zwei Personen aus dem MonBerg-Team. Gast: eine Person, die einen Besucher oder Kunden spielt. Hinter der Kamera: Haurer Media.'),
@@ -33,12 +33,13 @@ LOOKS = [
 ]
 LOOK_HINWEIS = 'Empfehlung / Orientierung: Die konkreten Teile entscheidet jede Person selbst.'
 
-REIHENFOLGE_TEXT = ('Zuerst die Ad, solange alle frisch sind. Danach die beiden Serien, zum Schluss der Sitzplan. Gesamt etwa 70 Minuten.')
+REIHENFOLGE_TEXT = ('Zuerst die Ad, solange alle frisch sind. Danach die beiden Serien, danach der Sitzplan. Zum Schluss der Rundgang durch die Innenbereiche. Gesamt etwa 90 Minuten.')
 REIHENFOLGE = [
     ('1', '01 Ausreden vs. MonBerg (Ad)', 'ca. 20 Min.'),
     ('2', '07 Sätze, die wir jede Woche hören · 5 Folgen', 'ca. 20 Min.'),
     ('3', '13 Was er sagt, was er meint · 3 Folgen', 'ca. 15 Min.'),
     ('4', '10 Der Sitzplan (Ad)', 'ca. 15 Min.'),
+    ('5', '18 Hier kannst du … hier eher nicht (Ad)', 'ca. 20 Min.'),
 ]
 KLAEREN = []
 BLOECKE = []
@@ -114,4 +115,25 @@ B('SERIEN & AD · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 10 · ca
     ad=('hoch',
         'Trifft genau die Person, die die Feier organisiert und die Location aussucht. Das Problem kennt jeder ohne Vorwissen, die Pointe bleibt hängen, und am Ende stehen zwei belegte Fakten und die Aufforderung.',
         'Die Einblendung „Wenn du den Sitzplan für die Weihnachtsfeier machen musst.“ steht ab der ersten Sekunde, der Gast startet ohne Einleitung. Fakten zusätzlich als Einblendung. Schluss: „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe. Im Frühjahr als Sommerfest-Fassung.')),
+
+)
+
+B('TREND · INNENBEREICHE', 'Team 1, Team 2, Gast · Skript 18 · ca. 20 Minuten. Rundgang durch alle Innenbereiche, keine Requisiten nötig.',
+  K('18', 'Hier kannst du … hier eher nicht', 'Trend-Format · Ad · 20–25 s · Team 1, Team 2, Gast',
+    'Team 1, im Zelt: „Hier passen bis zu 1.500 Gäste.“ · Harter Schnitt, Abstellraum: „Hier eher nicht.“',
+    ['Ein Video, schnell geschnitten. Team 1 zeigt auf einen Bereich und sagt den ersten Satz, dann harter Schnitt auf das Gegenbild, dort spielt Team 2 (oder der Gast) todernst. Den Satz „Hier eher nicht.“ sagt immer Team 1 aus dem Off. Jedes Paar höchstens 3 Sekunden.',
+     '1 · Zelt, groß und leer: „Hier passen bis zu 1.500 Gäste.“ → Abstellraum, Team 2 und der Gast stehen eingequetscht, Schulter an Schulter, starren in die Kamera: „Hier eher nicht.“',
+     '2 · Tanzfläche: „Hier kannst du tanzen.“ → Kühlraum oder Teamküche, Team 2 tanzt steif und zitternd vor sich hin: „Hier eher nicht.“',
+     '3 · Überdachter Wintergarten: „Hier feierst du, auch wenn’s regnet.“ → Tür nach draußen ins Dunkle, Team 2 hält sich ein Tablett über den Kopf: „Hier eher nicht.“',
+     '4 · Sitzbereich: „Hier sitzt du bequem.“ → Lager, Team 2 balanciert auf einem Stapel Stühle oder einer Getränkekiste: „Hier eher nicht.“',
+     '5 · Zelt: „Hier feierst du mit deinem ganzen Team.“ → kleiner Nebenraum, der Gast sitzt allein und klatscht für sich selbst: „Hier eher nicht.“',
+     '6 · Die Wende · Freie Fläche vorn im Zelt: „Hier hält dein Chef seine Rede.“ → hinter der Bar, der Gast kauert auf dem Boden und hält sich den Finger an die Lippen: „Und hier versteckst du dich davor.“',
+     'CTA · Team 1 dreht sich zur Kamera und zeigt direkt hinein: „Und hier fragst du an.“'],
+    '„Und hier fragst du an.“ → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
+    'Tempo ist alles: Jede Einstellung kurz halten, im Schnitt hart auf den Satz schneiden. Den ersten Satz spricht Team 1 im Bild oder als Stimme hinter der Kamera, „Hier eher nicht.“ immer gleich trocken. '
+    'Requisiten: keine. Alles, was vorkommt, ist vor Ort: Stühle, Getränkekisten, ein Tablett. Fehlt ein Raum, die Station einfach weglassen, das Format trägt auch mit vier Paaren. '
+    'Einstellungen: Handkamera, die schönen Bereiche weit und ruhig, die „eher nicht“-Bilder eng und frontal. Station 6 und den CTA zusätzlich einzeln aufnehmen. Den Text jeder Station als Einblendung mitlaufen lassen.',
+    ad=('hoch',
+        'Zeigt in 25 Sekunden alle Innenbereiche, trägt die belegten Fakten (bis zu 1.500 Gäste, überdachter Wintergarten) und wird mit jeder Station witziger. Die Wende und der CTA am Ende machen es zur stärksten Ad aus diesem Dreh.',
+        'Station 1 ist die Hook, ohne Einleitung. Der CTA „Und hier fragst du an.“ ist das Ende, darunter „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe. Später als Sommer-Fassung mit MonStrand und MonGarten.')),
 )
