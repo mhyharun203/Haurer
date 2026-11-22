@@ -83,3 +83,17 @@ B('OPTIONAL · NUR WENN ZEIT BLEIBT', 'Werden am Drehtag nur gedreht, wenn nach 
   S('16', '16', ('gering', 'Reine Unterhaltung, lebt von echten Lachern am Set.', None)),
   S('17', '17', ('gering', 'Ein Interaktions-Format für Kommentare, ohne Aufforderung zur Anfrage.', None)),
 )
+
+
+_CTA = {
+    '01': ('CTA · Team 1 schaut in die Kamera: „Und ihr? Plant eure Firmenfeier am MonBerg. Fragt jetzt bei uns an.“', 'CTA von Team 1 in die Kamera → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.'),
+    '02': ('CTA · Team 1 und Team 2 schauen gemeinsam in die Kamera. Team 1: „Firmenfeier oder Hochzeit: Fragt jetzt bei uns an.“', 'Konfetti fällt → CTA in die Kamera → Cut. Einblendung „Offizielle Standesamt-Location · Jetzt anfragen“.'),
+    '03': ('CTA · Team 1, direkt danach: „Also: Fragt jetzt bei uns an.“', '„Fragt jetzt bei uns an.“ → kurzes Lächeln → Cut. Einblendung „Firmenfeier am MonBerg · Jetzt anfragen“.'),
+    '04': ('CTA · Team 1 in die Kamera: „Und dann: früh anfragen. Am besten direkt bei uns.“', 'CTA in die Kamera, beide nicken → Cut. Einblendung „Firmenfeier am MonBerg · Jetzt anfragen“.'),
+}
+for _b in BLOECKE:
+    for _k in _b['skripte']:
+        if _k['nr'] in _CTA:
+            _abl = [x for x in _k['ablauf'] if x != 'Team 2: „Und dann: früh anfragen.“']
+            _k['ablauf'] = _abl + [_CTA[_k['nr']][0]]
+            _k['ending'] = _CTA[_k['nr']][1]

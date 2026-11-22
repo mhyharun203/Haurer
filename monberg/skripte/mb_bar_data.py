@@ -58,13 +58,14 @@ B('AD · AN DER BAR', 'Team 1, Team 2, Gast · ca. 20 Minuten.',
      'Gast: „Und wenn’s regnet?“ · Team 1: „Überdachter Wintergarten.“',
      'Gast: „Im Winter ist eh alles grau.“ · Team 2: „Palmen. Quarzsand. Liegestühle.“',
      'Gast, nach langer Pause, leise: „… ich hab nichts zum Anziehen.“',
-     'Team 1 und Team 2 schauen sich an. Schulterzucken. Team 1 schiebt dem Gast wortlos ein Glas hin.'],
-    'Glas wird hingeschoben → Gast nimmt es, seufzt → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
+     'Team 1 und Team 2 schauen sich an. Schulterzucken. Team 1 schiebt dem Gast wortlos ein Glas hin.',
+     'CTA · Team 1 schaut in die Kamera: „Und ihr? Plant eure Firmenfeier am MonBerg. Fragt jetzt bei uns an.“'],
+    'CTA von Team 1 in die Kamera → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
     'Einstellungen: 1. Halbtotale über den Tresen auf alle drei, als Grundeinstellung. 2. Gast nah, für jede Ausrede. 3. Team 1 und Team 2 jeweils nah, für jeden Konter. '
     'Jede Ausrede und jeder Konter als eigener Take, mindestens zwei Mal. Die Konter kurz und schnell sprechen, die Pause vor „nichts zum Anziehen“ lang lassen. '
     'Im Schnitt läuft jeder Fakt zusätzlich als Einblendung mit.',
     ad=('hoch',
-        'Fünf belegte Fakten in 25 Sekunden, jede Ausrede ist ein Einwand, den echte Entscheider haben. Die Bar im Hintergrund zeigt sofort, wo man ist.',
+        'Fünf belegte Fakten in 25 Sekunden, jede Ausrede ist ein Einwand, den echte Entscheider haben. Die Bar im Hintergrund zeigt sofort, wo man ist. Endet mit einem gesprochenen CTA.',
         'Hook in der ersten Sekunde, ohne Einleitung. Jeder Konter mit Fakt als Einblendung. Am Ende „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe.')),
 )
 
@@ -104,11 +105,12 @@ B('SERIEN & AD · AN DER BAR', 'Team 1, Team 2, Gast · Skripte 07, 13, 10 · ca
      'Team 1 und Team 2 schauen sich an. Team 2, ganz ruhig: „Wie wär’s mit freier Platzwahl?“',
      'Der Gast lässt den Zettel sinken und schaut die beiden lange an: „… ihr seid Genies.“',
      'Team 1, entspannt: „Bis zu 1.500 Gäste, fast 3.500 Quadratmeter. Da findet jeder seinen Platz.“',
-     'Team 2, trocken: „Auch alle vier Jürgens.“'],
-    '„Auch alle vier Jürgens.“ → Gast zerknüllt den Zettel und wirft ihn hinter sich → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
+     'Team 2, trocken: „Auch alle vier Jürgens.“ · Der Gast zerknüllt den Zettel und wirft ihn hinter sich.',
+     'CTA · Team 1 schaut in die Kamera: „Sitzplan-Stress? Feiert am MonBerg. Fragt jetzt bei uns an.“'],
+    'CTA von Team 1 in die Kamera → Cut. Einblendung: „Firmenfeier am MonBerg · Jetzt anfragen“.',
     'Worum es geht: Jeder, der schon mal eine Firmenfeier organisiert hat, kennt den Sitzplan-Stress. Das Team nimmt ihn mit einem Satz ab und liefert danach die Fakten, warum das am MonBerg funktioniert. '
     'Einstellungen: 1. Halbtotale auf alle drei am Tisch, Bar im Hintergrund. 2. Gast nah für jeden Punkt. 3. Team 1 und Team 2 nah für die Reaktionen und „freie Platzwahl“. '
-    'Jeder Punkt des Gastes ein eigener Take, schneller werden zum Ende hin. Die Namen sind Beispiele, nur keine echten Kunden- oder Mitarbeiternamen. Einen beschriebenen Zettel für den Gast bereitlegen. Die zwei Schlusssätze zusätzlich einzeln aufnehmen, damit die Ad auch ohne „Genies“ geschnitten werden kann.',
+    'Jeder Punkt des Gastes ein eigener Take, schneller werden zum Ende hin. Die Namen sind Beispiele, nur keine echten Kunden- oder Mitarbeiternamen. Einen beschriebenen Zettel für den Gast bereitlegen. Die zwei Schlusssätze und den CTA zusätzlich einzeln aufnehmen, damit die Ad auch ohne „Genies“ geschnitten werden kann.',
     ad=('hoch',
         'Trifft genau die Person, die die Feier organisiert und die Location aussucht. Das Problem kennt jeder ohne Vorwissen, die Pointe bleibt hängen, und am Ende stehen zwei belegte Fakten und die Aufforderung.',
         'Die Einblendung „Wenn du den Sitzplan für die Weihnachtsfeier machen musst.“ steht ab der ersten Sekunde, der Gast startet ohne Einleitung. Fakten zusätzlich als Einblendung. Schluss: „Firmenfeier am MonBerg · Jetzt anfragen“. Geschaltet wird nach eurer Freigabe. Im Frühjahr als Sommerfest-Fassung.')),
