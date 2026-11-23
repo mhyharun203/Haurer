@@ -15,7 +15,7 @@ def _dauer(text):
 KOPF = 'Hey Bones · Drehskripte · Stand 23.11. · 2026-1123-HB-D'
 TITEL = 'Hey Bones · Drehskripte'
 UNTER = 'AUSWAHL · 14 SKRIPTE SATZ FÜR SATZ · STAND 23.11.2026'
-ABLAUF_LAB = 'Sprechtext Sekunde für Sekunde'
+ABLAUF_LAB = 'Sprechtext Satz für Satz'
 REIHE_H = ('BLOCK', 'SKRIPTE', 'ORT')
 
 INTRO = [
@@ -23,8 +23,7 @@ INTRO = [
      'Murat spricht als Chiropraktiker und Gründer direkt in die Kamera. Jedes Video folgt derselben Mechanik: ein provokanter Hook, ein Zeichen, das jeder Halter kennt, '
      'die Erklärung aus der Praxis, dann Hey Bones als tägliche Routine und der CTA. Die Sätze stehen wörtlich da und werden einzeln aufgenommen.'),
     ('Format & Ziellänge',
-     'Hochkant 9:16. Sprechzeit je Video ca. 28–33 Sekunden, Greenscreen ca. 34–39 Sekunden, Murats Geschichte bis ca. 45 Sekunden. '
-     'Die Zeitmarken vor jedem Satz sind mit ruhigem Sprechtempo und kurzer Pause gerechnet.'),
+     'Hochkant 9:16. Sprechzeit je Video ca. 28–33 Sekunden, Greenscreen ca. 34–39 Sekunden, Murats Geschichte bis ca. 45 Sekunden.'),
     ('Für alle Videos',
      'Murat stellt sich nicht jedes Mal vor. Nennt er seinen Beruf, dann Chiropraktiker. Dosierung immer: ein Löffel pro 10 Kilo übers Futter. '
      'Keine Heilversprechen: „unterstützen“, nie „heilt“ oder „weg“. Der CTA wird zwei Mal aufgenommen: 90 Tage für den Onlineshop, 14 Tage für TikTok.'),
@@ -69,7 +68,7 @@ for btitel, btext, videos in _A['BLOECKE']:
                 hg = f' · Hintergrund: {hg}'
             bis = zeit + _dauer(gesagt)
             if i < len(takes) - 1:
-                zeilen.append(f'{_tc(zeit)}–{_tc(bis)} · Murat: „{gesagt}“ ({kam}{hg})')
+                zeilen.append(f'Murat: „{gesagt}“ ({kam}{hg})')
                 zeit = bis
         letzter = takes[-1][1]
         ende = _tc(zeit + _dauer(letzter))
@@ -83,7 +82,7 @@ for btitel, btext, videos in _A['BLOECKE']:
             tags=f'{v["produkt"]} · Sprechzeit ca. {int(round(zeit + _dauer(letzter)))} s · Murat',
             hook=f'Murat: „{v["hooks"][0]}“',
             ablauf=zeilen,
-            ending=f'{_tc(zeit)}–{ende} · Onlineshop: „{letzter}“',
+            ending=f'Onlineshop: „{letzter}“',
             alt=f'TikTok-Fassung, gleich danach aufnehmen: „{letzter.replace("90 Tage", "14 Tage")}“',
             vorb=vorb, ad=None))
     text = btext
