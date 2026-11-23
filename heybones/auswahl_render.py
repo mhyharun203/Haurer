@@ -20,13 +20,15 @@ section { break-before: page; } section.first { break-before: avoid; }
 h3 { font-size: 18pt; margin: .5mm 0 .5mm; }
 .var { font-size: 10pt; color: #555; margin-bottom: 2mm; }
 .warum { font-size: 9.3pt; color: #444; border-bottom: 1.2pt solid #111; padding-bottom: 2.5mm; margin-bottom: 4mm; font-style: italic; }
-.take { break-inside: avoid; margin: 0 0 2mm; padding-left: 4mm; border-left: 2.5pt solid #b8862b; }
+.zeile { display: flex; gap: 2.5mm; break-inside: avoid; }
+.tc { width: 11mm; flex: none; font-size: 8.6pt; font-weight: 700; color: #111; text-align: right; padding-top: .3mm; line-height: 1.25; font-variant-numeric: tabular-nums; }
+.take { flex: 1; break-inside: avoid; margin: 0 0 1.7mm; padding-left: 4mm; border-left: 2.5pt solid #b8862b; }
 .take.hook { border-left-color: #111; background: #f6f2ea; padding: 2mm 3mm 2mm 4mm; }
 .take.tiktok { border-left-color: #111; border-left-style: dashed; }
 .tn { font-size: 8.3pt; font-weight: 700; color: #b8862b; letter-spacing: .05em; }
 .kam { font-size: 8.8pt; color: #666; margin: .3mm 0 .2mm; }
 .hg { font-size: 8.8pt; color: #2b6e3f; margin: 0 0 1.2mm; font-weight: 700; }
-.satz { font-size: 12.4pt; line-height: 1.27; font-weight: 700; margin-top: .8mm; }
+.satz { font-size: 12pt; line-height: 1.25; font-weight: 700; margin-top: .8mm; }
 h4 { font-size: 10.5pt; margin: 3mm 0 1.5mm; border-top: 1pt solid #ddd; padding-top: 3mm; break-after: avoid; }
 .ex { font-size: 11pt; font-weight: 700; margin: 0 0 1.8mm; padding-left: 4mm; border-left: 2.5pt solid #ccc; }
 '''
@@ -43,19 +45,30 @@ for btitel, btext, videos in D['BLOECKE']:
         items.append(f'<li value="{nr}">{E(v["titel"])} <span style="color:#999">· {E(v["produkt"])} · {E(v["laenge"])}</span></li>')
         t = []
         n = 0
+        zeit = 0.0
+        def tc(sek):
+            return f'{int(sek)//60}:{int(round(sek))%60:02d}' if sek < 60 else f'{int(sek)//60}:{int(round(sek))%60:02d}'
+        def dauer(text):
+            return max(1.5, len(text.split()) / 2.6 + 0.4)
         for kam, satz in v['takes']:
             n += 1
+            gesagt = v['hooks'][0] if satz == 'HOOK' else satz
+            von, bis = zeit, zeit + dauer(gesagt)
+            if n < len(v['takes']):
+                zeit = bis
+            zc = f'<div class="tc">{tc(von)}<br>–{tc(bis)}</div>'
             hg = ''
             if ' · HG: ' in kam:
                 kam, hg = kam.split(' · HG: ', 1)
                 hg = f'<div class="hg">Hintergrund: {E(hg)}</div>'
             if satz == 'HOOK':
-                t.append(f'<div class="take hook"><div class="tn">TAKE {n} · HOOK · MURAT</div><div class="kam">Kamera: {E(kam)}</div>{hg}<div class="satz">„{E(v["hooks"][0])}“</div></div>')
+                t.append(f'<div class="zeile">{zc}<div class="take hook"><div class="tn">TAKE {n} · HOOK · MURAT</div><div class="kam">Kamera: {E(kam)}</div>{hg}<div class="satz">„{E(v["hooks"][0])}“</div></div></div>')
             else:
-                t.append(f'<div class="take"><div class="tn">TAKE {n} · MURAT</div><div class="kam">Kamera: {E(kam)}</div>{hg}<div class="satz">„{E(satz)}“</div></div>')
+                t.append(f'<div class="zeile">{zc}<div class="take"><div class="tn">TAKE {n} · MURAT</div><div class="kam">Kamera: {E(kam)}</div>{hg}<div class="satz">„{E(satz)}“</div></div></div>')
         last_kam, last_satz = v['takes'][-1]
         tt = last_satz.replace('90 Tage', '14 Tage')
-        t.append(f'<div class="take tiktok"><div class="tn">TAKE {n} B · CTA · TIKTOK-FASSUNG</div><div class="kam">Kamera: wie Take {n}, gleich danach aufnehmen</div><div class="satz">„{E(tt)}“</div></div>')
+        t.append(f'<div class="zeile"><div class="tc">statt<br>Take {n}</div><div class="take tiktok"><div class="tn">TAKE {n} B · CTA · TIKTOK-FASSUNG</div><div class="kam">Kamera: wie Take {n}, gleich danach aufnehmen</div><div class="satz">„{E(tt)}“</div></div></div>')
+        gesamt = f'{int(round(bis))} s'
         alt = ''.join(f'<div class="ex">„{E(h)}“</div>' for h in v['hooks'][1:])
         ort = f' · {E(v["ort"])}' if v.get('ort') else ''
         vg = ''
@@ -64,13 +77,13 @@ for btitel, btext, videos in D['BLOECKE']:
         cls = 'first' if first else ''
         first = False
         body.append(f'<section class="{cls}"><div class="kopf">Video {nr:02d} · {E(btitel)}</div><h3>{E(v["titel"])}</h3>'
-                    f'<div class="var">{E(v["produkt"])} · {E(v["laenge"])}{ort}</div><div class="warum">{E(v["warum"])}</div>{"".join(t)}'
+                    f'<div class="var">{E(v["produkt"])} · Sprechzeit ca. {gesamt}{ort}</div><div class="warum">{E(v["warum"])}</div>{"".join(t)}'
                     f'<h4>Alternative Hooks · zusätzlich aufnehmen, ersetzen Take 1</h4>{alt}{vg}</section>')
     ov.append(f'<h2>{E(btitel)}</h2><div class="bt">{E(btext)}</div><ol>{"".join(items)}</ol>')
 
 out = f'''<!doctype html><html lang="de"><head><meta charset="utf-8"><title>Hey Bones Auswahl</title><style>{CSS}</style></head><body>
 <div class="ov"><h1>Hey Bones · Auswahl · {nr} Skripte</h1>
-<div class="sub">Die besten Skripte aus der Drehtag-Fassung, Satz für Satz. Pro Take eine Kamera-Zeile und Murats Satz wörtlich. Murat liest einen Satz, spricht ihn in die Kamera, dann der nächste. Bei den Greenscreen-Videos steht unter jedem Satz der Clip, der im Schnitt dahinter läuft.</div>
+<div class="sub">Die besten Skripte aus der Drehtag-Fassung, Satz für Satz. Links steht für jeden Satz die Sekunde von bis im fertigen Video, gerechnet mit ruhigem Sprechtempo. Pro Take eine Kamera-Zeile und Murats Satz wörtlich. Murat liest einen Satz, spricht ihn in die Kamera, dann der nächste. Bei den Greenscreen-Videos steht unter jedem Satz der Clip, der im Schnitt dahinter läuft.</div>
 {"".join(ov)}
 <div class="regeln"><b>Für alle Videos:</b> Murat stellt sich nicht jedes Mal vor. Nennt er seinen Beruf, dann Chiropraktiker. Dosierung immer: ein Löffel pro 10 Kilo übers Futter. Keine Heilversprechen: Murat sagt „unterstützen“, nie „heilt“ oder „weg“. Jeder Hook wird drei Mal aufgenommen, die Alternativen gleich danach. Der CTA kommt immer wörtlich, und zwar zwei Mal: einmal mit 90 Tagen für den Onlineshop, einmal mit 14 Tagen für TikTok (Take B). TikTok-Fassungen nur mit Take B schneiden.</div></div>
 {"".join(body)}
